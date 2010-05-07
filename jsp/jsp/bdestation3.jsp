@@ -82,7 +82,7 @@ Aktuelle Uhrzeit:</font> <input type="text" name="zeit" size="6" readonly="reado
   </tr>
   <tr>
     <td width="50%" align="right">
-      <font face="Verdana">        Maschine/ T&auml;tigkeit:
+      <font face="Verdana">        Maschine/ T&auml;tigkeit/ Fertig:
         &nbsp;
       </font>
     </td>
