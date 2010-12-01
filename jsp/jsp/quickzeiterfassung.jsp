@@ -93,10 +93,10 @@ aQueryString[iParam].indexOf(strParamName + "=") > -1 ){
     </td>
   </tr>
   <tr>
-    <td width="150"><font face="Verdana" size="4"><%=hm.get("bezeichnung_sondertaetigkeit")%></font></td>
+    <td width="150"><font face="Verdana" size="4"><input type="button" value="<%=hm.get("bezeichnung_sondertaetigkeit")%>" name="taet" onclick="bucheSondertaetigkeit()"></font></td>
     <td width="300"><font face="Verdana" size="4"><%=hm.get("bezeichnung_kunde")%></font></td>
     <td width="300"><font face="Verdana" size="4"><%=hm.get("bezeichnung_offenerauftrag")%></font></td>
-    <td width="300"><font face="Verdana" size="4"><%=hm.get("bezeichnung_taetigkeit")%></font></td>
+    <td width="300"><font face="Verdana" size="4"><input type="button" value="<%=hm.get("bezeichnung_taetigkeit")%>" name="auft" onclick="bucheAufAuftrag()"></font></td>
   </tr>
    <tr>
     <td valign="top">
