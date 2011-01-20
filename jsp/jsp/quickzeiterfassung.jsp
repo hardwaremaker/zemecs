@@ -13,7 +13,6 @@
 
 <script type="text/javascript">
 function refreshAuftraegeUndArtikel() {
-  document.kunden.kunde.value="";
   document.kunden.belegart.value=document.belegarten.belegart.value;
   document.auftraege.auftrag.value="";
   document.artikel.artikel.value="";
