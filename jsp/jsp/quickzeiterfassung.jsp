@@ -228,10 +228,8 @@ aQueryString[iParam].indexOf(strParamName + "=") > -1 ){
     <td width="25%"></td>
     <td width="75%" colspan="3"><font face="Verdana" size="4"><%=hm.get("bezeichnung_bemerkung")%>:</font> <br>
 
-     <form name="bemerkung" action="">
-
-
-      <input type="text" name="bemerkung" size="80">
+     <form name="bemerkung" action="javascript:void(0);">
+      <input type="text" name="bemerkung" size="80"> 
       </form>
 
 
